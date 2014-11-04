@@ -19,13 +19,24 @@ legend{
 }
 
 .top-bottom-margin{
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
 }
 
 .alert li{
 	margin: auto;
 	width: 75%;
+}
+.padding{
+	padding: 1em;
+}
+
+.tiny{
+	font-size: 0.80em;
+}
+
+#graph{
+	display: none;
 }
 
 .validation-error{
@@ -39,17 +50,13 @@ legend{
 	font-size: 1.25em;
 }
 
-.big-label::after{
-	content: "";
-    display: block;
-    height: 1px;
-    width: 80%;
-    margin: 10px;
-    background: gray;
+.clickable{
+	cursor: pointer;
 }
 
-.clickable-children *{
-	cursor: pointer;
+.clickable:hover{
+	background: #f0f0f0;
+	border-radius: 2em;
 }
 
 .btn{
